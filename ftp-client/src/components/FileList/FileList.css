@@ -1,0 +1,23 @@
+.files-list {
+    margin-top: 40px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    border: 1px solid #dddd;
+}
+
+.files-list .list .list-elem {
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.container .title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.filesContainer {
+    display: flex;
+    width: 900px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(235, 229, 229);
+    background: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 20px rgb(235, 229, 229); 
+}
+
+input {
+    display: none;
+}
+
+.chosenFileContainer {
+    margin-bottom: 10px;
+}
+
+.chosenFileContainer span {
+    font-size: 18px;
+    font-weight: 500;
+}
